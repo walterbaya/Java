@@ -1,0 +1,24 @@
+-Permiten almacenar datos en el programa de manera temporal.
+-Se reserva espacio en memoria dependiendo el tipo que tengamos.
+
+-TIPOS DE DATOS EN JAVA
+
+-PRIMITIVOS:
+	-entero
+		-byte(8 bits)   0
+		-short(16 bits) 0
+		-char(16 bits) maneja la tabla de tipo unicode. \u0000
+		-int(32 bits) 0
+		-long(64 bits) 0	 RECORDAR QUE LOS LONG TERMINAN CON l
+	-floante
+		-float(32 bits) 0.0	RECORDAR QUE LOS FLOAT TERMINAN CON f
+		-double(64 bits) 0.0	
+	-boolean
+		-en general vale false por default.
+-OBJECT: referencias a objeto
+	-clases
+	-interfaces
+	-arreglos
+
+
+ 

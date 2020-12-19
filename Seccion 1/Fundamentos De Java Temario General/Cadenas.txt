@@ -1,0 +1,14 @@
+-Es de tipo Object
+-no es necesario usar un new, podemos crearlo como una variable
+-y asignarle un valor.
+-debido a que se usa mucho se tomo la decision de simplificar su creacion.
+
+String saludo = "Hola Mundo"
+
+-el operador + se da cuenta del contexto si tenemos un String precedido
+-de otro
+
+-para comparar cadenas de texto usaremos el metodo equals, no el ==
+
+saludo.equals("Hola Mundo");
+

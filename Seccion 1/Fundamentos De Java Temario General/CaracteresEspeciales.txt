@@ -1,0 +1,4 @@
+System.lineSeparator();
+
+nos regresara el caracter adecuado dependiendo el sistema operativo, como salto de linea
+sin tener que pensar si el correct es \n o \r.

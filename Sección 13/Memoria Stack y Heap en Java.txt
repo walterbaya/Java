@@ -1,0 +1,29 @@
+La memoria ram se usa para almacenar la info del programa mientras se ejecuta.
+
+memoria de Stack: se usa para almacenar las variables locales y llamadas de funciones.
+		  las cuales tienen un periodo de vida corto, mientras termina la funcion o metodo
+		  mientras se estan ejecutando.
+Memoria Heap: Almacena los objetos incluyendo los atributos, tienen un tiempo mas prolongado
+	      de duracion, las variables solo guardan la referencia del objeto.
+
+Persona p1 = new Persona();
+
+p1 solo almacena una direccion de memoria, es un puntero al lugar de la memoria donde esta creada
+la persona con determinados datos p1 = 0x33333 por ejemplo.
+
+se podria luego hacer p1 = null;
+entonces la persona se elimina automaticamente con el garbage collector o recolector de basura.
+es quien busca los objetos en la memoria heap que ya no estan siendo referenciados.
+
+Un objeto ocupa un espacio real en memoria.
+
+Las variables de tipo Object solo almacenan referencia a los objetos que fueron creados.
+
+Persona p1 = new Persona();
+Persona p2 = p1;
+
+luego tanto p1 como p2 apuntan al mismo objeto que fue creado en 1.
+
+
+p1,p2 estan en el Stack (son locales y o dinamicas) y el objeto esta en el heap, ya que tiene
+que permanecer con vida durante el momento en que las variables los estan apuntando.

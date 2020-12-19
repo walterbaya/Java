@@ -1,0 +1,17 @@
+javadoc es un documento html  que muestra la documentacion de un proyecto en Java.
+ 
+/**
+ *Esto es un elemento de documentacion
+ */
+
+@author: 
+@version:
+@return 
+
+Todas las clases heredan automaticamente de la clase object.  
+
+@param     definicion de un parametro de un metodo
+@see       indica que se asocia con otro metodo o clase.
+@version   version del metodo o clase
+
+

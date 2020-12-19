@@ -1,0 +1,53 @@
+Interfaz
+Contrato entre proveedor y cliente 
+-sirve fundamentalmente como sustituto de la herencia multiple
+-se usa para definir comportamiento
+-las clases implementan el comportamiento de las interfaces.
+-Una interfaz es una declacion de metodos similar a los abstractos sin implementacion
+-los atributos de una interfaz son:
+
+    PUBLICOS
+    ESTATICOS
+    FINALES
+
+o sea son constantes que se pueden acceder poniendo solo el nombre de la interfaz
+los atributos de una interfaz tienen _ y son constantes.
+los metodos de una interfaz son publics y ABSTRACTOS.
+una Interfaz es heredable de otra Interfaz, es decir agregando mas metodos a la nueva.
+
+-muchas clases pueden implementar la misma interfaz
+-una clase puede implementar muchas interfaces
+-no se puede crear un objeto de una interfaz
+-SI SE PUEDEN CREAR VARIABLES DE TIPO INTERFAZ QUE APUNTEN A OBJETOS QUE IMPLEMENTARON
+DICHA INTERFAZ
+
+por ejemplo si tengo:
+
+interfaz movimiento
+clase jugadorDeFutbol que implementa movimiento
+
+puedo crear
+
+movimiento futbolistico = new JugadorDeFutbol();
+
+puedo tener una variable interfaz de este tipo.
+
+-CLASES ABSTRACTAS VS INTERFACES
+
+-abstracta: encapsula caracteristicas en comun entre las clases
+            se debe extender de ella
+-interfaz: comportamiento de muchas clases, se debe implementar.
+
+La recomendacion:
+
+Las clases abstractas se usan para objetos estrechamente relacionados
+-figura geometrica -> cuadrado
+
+las interfaces de uso general para proporcionar funcionalidad comun a clases no relacionadas entre si.
+
+movimiento lagarticoJuanchico = new LagartoJuancho(); 
+
+movimiento aeronautico = new Avion();
+
+no hay una relacion estrecha entre un lagarto y un avion, pero si implementan un comportamiento comun
+que es el movimiento.

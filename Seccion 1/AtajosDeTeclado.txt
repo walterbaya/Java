@@ -1,0 +1,7 @@
+//Imprime la variable var que tenia definida arriba
+soutv 
+//Crea un metodo public static void main
+psvm
+//Crea un impresor automatico
+sout
+//CLICK DERECHO -> format, facilita enseguida acomodando todas las lineas de codigo.

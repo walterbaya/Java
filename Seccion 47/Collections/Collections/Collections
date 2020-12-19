@@ -1,0 +1,30 @@
+Collections en Java.
+
+Una coleccion es un conjunto de datos con o sin ordenamiento, similar al manejo de arreglos
+los arreglos son mas simples que las colecciones, las colecciones se conocen como
+TAD o estructuras de datos, ya que permiten almacenar informacion de manera estructurada
+y mas variada que los arreglos.
+
+En un arreglo se declara el numero de elementos, es fijo.
+En las colecciones no, se pueden ir agregando elementos,
+pueden tener metodos de ordenamiento, busqueda, dependiendo del tipo de coleccion.
+
+JAVA API
+
+Listas doblemente enlazadas, arboles, mapas de datos, etc...
+
+el api de colecciones se divide en 
+LISTAS
+SETS    conjuntos de datos
+MAPAS   key/data (funciones hash) reutilizacion de codigo, funciones de hashing.
+        asigna un entero unico a cada elemento que creamos. solo debemos preocuparnos
+        por implementar el metodo hash code, aumentando la eficiencia.
+
+interfaz:
+
+Collection -> Set (elementos no ordenados, no se permiten duplicados)
+           -> List(se permiten duplicados, si ordenada)
+
+MAP -> HashMap (value/key)   se relaciona llave con un valor.
+
+ENUMERATION, ITERATOR, COMPARATOR, clases de apoyo para dichas interfaces.
