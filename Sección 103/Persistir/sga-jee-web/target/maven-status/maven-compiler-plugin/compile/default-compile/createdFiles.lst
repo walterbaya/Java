@@ -1,7 +1,9 @@
 mx\com\gm\sga\cliente\ciclovidajpa\PersistirObjetoJPA.class
 mx\com\gm\sga\servicio\PersonaServiceImpl.class
+mx\com\gm\sga\cliente\ciclovidajpa\ModificarObjetoJPA.class
 mx\com\gm\sga\datos\UsuarioDao.class
 mx\com\gm\sga\servicio\UsuarioServiceRemote.class
+mx\com\gm\sga\cliente\ciclovidajpa\EncontrarObjetoJPA.class
 mx\com\gm\sga\servicio\UsuarioServiceImpl.class
 mx\com\gm\sga\datos\PersonaDaoImpl.class
 mx\com\gm\sga\servicio\UsuarioService.class
